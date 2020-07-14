@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  amount: 1
+  date_time: 2020-07-13 21:06:58
+  origin: MyString
+
+two:
+  name: MyString
+  amount: 1
+  date_time: 2020-07-13 21:06:58
+  origin: MyString

@@ -1,0 +1,22 @@
+<h1>Dashboard Coffe</h1>
+
+<h2>Ventas por Mes</h2>
+<%= area_chart @sales_grouped_by_month %>
+
+<h2>Cantidad de Ventas por Mes</h2>
+<%= column_chart @quantity_sales_by_month %>
+
+<h2>Gráficos de torta 12 meses</h2>
+<%= pie_chart @twelve_month_origin %>
+
+<h2>Gráficos de torta 6 meses</h2>
+<%= pie_chart @six_month_origin %>
+
+<h2>Gráficos de torta 3 meses</h2>
+<%= pie_chart @three_month_origin %>
+
+<h2>Gráficos de torta 1 mes</h2>
+<%= pie_chart @one_month_origin %>
+
+<h2>Gráficos de torta 12 meses por Nombre</h2>
+<%= pie_chart @twelve_month_name %>
